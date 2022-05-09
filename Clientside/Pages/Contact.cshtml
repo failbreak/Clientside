@@ -1,0 +1,25 @@
+﻿@page
+@model Clientside.Pages.ContactModel
+@{
+}
+<body class="bg-dark">
+
+<div class="container d-flex ">
+    <div class="GetCentered bg-black bg-opacity-25">
+  <form class="text-center align-content-center" action="/doesntworksad">
+      <div class="column m-2">
+    <label class="text-white item m-1" for="name">Name</label>
+    <input type="text" id="nameCont" name="name" placeholder="Your name..">
+
+    <label class="text-white item m-1" for="email">email</label>
+    <input class="col-4"  type="email" id="email" name="email" placeholder="Your Email">
+      </div>
+
+    <label class="text-white text-center row d-block" for="subject">Subject</label>
+    <textarea  class="textarea_contact" cols="70" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+    </div>
+</div>
+</body>
