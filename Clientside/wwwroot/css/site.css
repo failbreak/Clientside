@@ -1,0 +1,173 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+/*  Custom css begins here  */
+
+/*#region index*/
+.Menu_div {
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.C_ul {
+    text-align: center;
+    display: block;
+    padding: 20px 5px;
+    /* list-style-image: url('../gif, png, etc/list/clickme.gif')*/ /* didnt work so im mad  */
+}
+
+.C_li {
+    text-align: center;
+    display: inline;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: rgb(44, 112, 157);
+    border-radius: 4px 6px;
+    box-shadow: 1px 2px 1px 1px rgb(13, 65, 138);
+}
+
+.background {
+    background-color: rgb(30,30,30);
+    height: 100%;
+}
+
+.i_h1 {
+    color: white;
+    text-align: center;
+}
+
+.background_v_index {
+    /*   background-position: 50% 50%;
+    background-color:black;
+    background-image: url(https://c.tenor.com/Bo-JXZKPP0wAAAAC/elmo-mother-land.gif);
+    background-repeat:no-repeat;*/
+    height: 100%;
+    background-size: contain;
+    background-attachment: scroll;
+    background-color: rgb(30,30,30);
+}
+
+.index_div_picture {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.mePicture {
+    margin-top: 10%;
+    margin-left: 42%;
+    margin-right: 60%;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 20%;
+    shape-outside: circle();
+    position: absolute;
+    z-index: 2;
+}
+
+.cssPicture {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    height: 900px;
+    width: 1000px;
+}
+/*#endregion inex*/
+.Ab_div {
+    text-align: center;
+}
+
+.Ab_grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+}
+
+.p_ab {
+    margin: 20px 20px;
+}
+
+
+.Bar_Sep {
+    background: rgb(50,50,50); height: 2px;
+    padding: 0px 0px;
+}
+
+.fakebutton {
+    color: white
+}
