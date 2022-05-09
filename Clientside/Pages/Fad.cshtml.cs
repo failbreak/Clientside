@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Clientside.Pages
 {
-    public class PortfolioModel : PageModel
+    public class FadModel : PageModel
     {
         public void OnGet()
         {
