@@ -258,3 +258,13 @@ body {
 #nameCont {
     height:43.5px;
 }
+#review {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+#revPost {
+    padding: 0% 5%;
+}
