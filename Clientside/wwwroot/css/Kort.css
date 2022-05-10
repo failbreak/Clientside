@@ -75,20 +75,18 @@ body {
 /*  Custom css begins here  */
 
 #OuterCard {
-    height: 200px;
+    height: 400px;
     width: 600px;
-    border-radius: 10%;
+    border-radius: 0%;
 }
 
 #Image {
     width: 200px;
-    height: 100%;
 }
 
     #Image img {
-        height: 80%;
-        width: 80%;
-        border-radius: 50%;
+        height: 200px;
+        border-radius: 30%;
     }
 
 #Info {
@@ -109,5 +107,6 @@ body {
     border: 2px solid;
     height: 400px;
     width: 550px;
-    background-color: black
+    background-color: black;
+    border:5px solid white;
 }

@@ -1,19 +1,12 @@
 ﻿@page
 @model Clientside.Pages.KortModel
 
-<link rel="stylesheet" href="~/css/site.css" disbled=true />
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" disbled=false />
+<link disbled=true rel="stylesheet" href="~/css/site.css"  />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" disbled=true/>
+<script>document.querySelectorAll('style,link[rel="stylesheet"]').forEach(item => item.remove())</script>
+<link rel="stylesheet" href="~/css/Rest.css"/>
 <link rel="stylesheet" href="~/css/Kort.css">
 <body style="background-color:black; overflow:hidden;">
-    <nav class="Menu_div">
-        <ul class="C_ul">
-            <li class="C_li"> <a class="fakebutton" href="Index">Home</a> </li>
-            <li class="C_li"><a class="fakebutton" href="Aboutme">About Me</a></li>
-            <li class="C_li"><a class="fakebutton" href="Portfolio">Portfolio</a></li>
-        </ul>
-        <h1 class="i_h1"> Max Møenbo Larsen</h1>
-
-    </nav>
     <div>
         <div style="margin-left:40%; margin-top:10%;">
             <div id="box">
