@@ -2,13 +2,44 @@
 @model Clientside.Pages.FadModel
 @{
 }
-<div style="border:5px solid; width:660px; background-color:antiquewhite;"> 
+<body class="bg-dark bg-opacity-75 ">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-black bg-opacity-50">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Max M Larsen</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav-center text collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Aboutme">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="fad">Ad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<div id="Fadiv"> 
 <div id="PortOuter">
 <div id="imgPortAd">
     <img style="max-height:650px; max-width:650px" src=~/pictures/Ad1.png/>
 </div>
 <div id="PortAddInfo">
-    <p>Fantastisk Datatekniker</p>
+    <h1>Fantastisk Datatekniker</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis nisl massa, quis condimentum augue auctor vel. Nunc consequat volutpat tortor, ut blandit sussy baka et. Maecenas eu scelerisque erat. Nunc non massa nec risus ultricies molestie ut vitae libero. Nullam volutpat enim non ultricies malesuada. Aenean efficitur rutrum sem vitae fringilla. Duis leo massa, dictum eget nisl et, vestibulum convallis ante. Pellentesque rutrum sed sapien id suscipit.</p>
     <form>
         <button>
     <a href="Index">MMLData.dk</a>
@@ -17,3 +48,4 @@
 </div>
 </div>
 </div>
+</body>
